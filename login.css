@@ -46,7 +46,7 @@
         transform: scale(1.1);
     }
 .log {
-    background: url(../IMG/2.webp);
+    background: url(./IMG/2.webp);
     background-size: cover;
 }
 #test{
@@ -58,3 +58,4 @@
     font-size:50px;
     font-weight:600;
 }
+
