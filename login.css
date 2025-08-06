@@ -1,0 +1,60 @@
+.login {
+    width: 450px;
+    height: 550px;
+    padding: 0px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+    justify-content: center;
+}
+    .login h1 {
+        margin: 0;
+        padding-top: 190px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: white;
+        text-align: center;
+    }
+    .login label {
+        color: white;
+        font-weight: bold;
+    }
+    .login input {
+        width:100%;
+        margin:10px 0px
+
+    }
+        .login input[type="text"], .login input[type="password"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 16px;
+        }
+    .login button{
+        transition: 0.5s ease;
+
+    }
+
+    .login button:hover {
+        transform: scale(1.1);
+    }
+.log {
+    background: url(../IMG/2.webp);
+    background-size: cover;
+}
+#test{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    padding:50px;
+    color:white;
+    font-size:50px;
+    font-weight:600;
+}
